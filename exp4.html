@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment 4</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 40px;
+            color: #000;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        /* First list style - Uppercase Roman numerals starting at 5 (V) */
+        ol.bestsellers {
+            list-style-type: upper-roman;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 60px;
+        }
+
+        ol.bestsellers > li {
+            margin-bottom: 5px;
+        }
+
+        /* Nested list style - Circle bullets */
+        ul.details {
+            list-style-type: circle;
+            font-size: 18px;
+            font-weight: normal;
+            padding-left: 30px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul.details li {
+            margin-bottom: 3px;
+        }
+
+        /* Second list style - Square bullets */
+        ul.menu {
+            list-style-type: square;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 60px;
+        }
+
+        ul.menu li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Page &amp; Coffee Weekly Highlights</h1>
+
+    <h2>Special Curated Bestsellers</h2>
+
+    <!-- Starting ordered list at 5 (V) using uppercase Roman numerals -->
+    <ol class="bestsellers" start="5">
+        <li>The Midnight Library
+            <ul class="details">
+                <li>Author: Matt Haig</li>
+                <li>Genre: Contemporary Fantasy</li>
+            </ul>
+        </li>
+        <li>Klara and the Sun</li>
+        <li>The Vanishing Half</li>
+        <li>Project Hail Mary</li>
+        <li>The Seven Husbands of Evelyn Hugo</li>
+    </ol>
+
+    <h2>Café Beverage Menu</h2>
+
+    <!-- Unordered list with square bullets -->
+    <ul class="menu">
+        <li>Espresso &amp; Americano</li>
+        <li>Artisanal Teas</li>
+        <li>Vanilla Bean Lattes</li>
+        <li>Matcha Green Tea</li>
+    </ul>
+
+</body>
+</html>
+
+
+
+
